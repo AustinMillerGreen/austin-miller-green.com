@@ -2,7 +2,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Austin Miller Green Photographer</title>
+    <title>Photographe professionnel | Austin Miller Green</title>
+    <meta name="description" content="Découvrez les photographies artistiques d'Austin Miller Green, un photographe passionné et expérimenté.">
+    <meta property="og:title" content="Austin Miller Green - Photographe">
+    <meta property="og:description" content="Découvrez les photographies artistiques d'Austin Miller Green.">
+    <meta property="og:image" content="URL_de_votre_image_principale">
+    <meta property="og:url" content="URL_de_votre_site">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <style>
@@ -14,9 +21,7 @@
             /* background-color: #928cbd; */
             background-image: linear-gradient(#e0e0e6, #928cbd, #e0e0e6);
         }
-        /* .nav-item:hover, .img-profil:hover{
-            background-color: #371d9f;
-        } */
+        
         .titre{
             color: #a5b4fd;
         }
@@ -26,66 +31,70 @@
         .nav-item, .img-profil, .img-logo{
             text-shadow: 2px 2px 2px #1F2039;
         } 
-
+        .bouton-revenir-debut{
+            bottom : 25px
+        }
     </style>
 </head>
 <body>
-    <div class="row">
-        <header class="col-lg-6 d-flex flex-column" id="haut">
-            <nav class="navbar navbar-expand-md fixed-top" >
-                <div class="container">
-                    <div style="width: 250px; height: 70px;" class="align-self-start">
-                        <a class="navbar-brand d-flex h-100 justify-content-between align-items-center text-white" href="index.html">
-                            <img class="img-logo scale shadow-lg border border-2 border-secondary rounded" style="height: 100%; --bs-border-opacity: .4;" src="images/logo.jpeg" alt="Logo">
-                            <p class="img-profil scale my-auto d-lg-block" style="display: none;">Austin Miller Green</p>
-                        </a>
+    <div class="container-fluid">
+        <div class="row">
+            <header class="ctn-about col-lg-6 d-flex flex-column pe-0" id="haut">
+                <nav class="navbar navbar-expand-md fixed-top" >
+                    <div class="container">
+                        <div style="width: 250px; height: 70px;" class="align-self-start">
+                            <a class="navbar-brand d-flex h-100 justify-content-between align-items-center text-white" href="index.html">
+                                <img class="img-logo scale shadow-lg border border-2 border-secondary rounded" style="height: 100%; --bs-border-opacity: .4;" src="images/logo.jpeg" alt="Logo">
+                                <p class="img-profil scale my-auto d-lg-block" style="display: none;">Austin Miller Green</p>
+                            </a>
+                        </div>
+                        <div class="d-flex flex-column align-self-center" style="border-color: gray;">
+                            <button class="navbar-toggler align-self-end" data-bs-toggle="collapse" data-bs-target="#menu" style=" color: gray;">
+                                
+                                <i class="fa-solid fa-bars"></i>
+                            </button>
+                            <div class="collapse navbar-collapse" id="menu">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item mx-3 scale">
+                                        <a href="#work" class="nav-link text-white">Work</a>
+                                    </li>
+                                    <li class="nav-item mx-3 scale">
+                                        <a href="#about" class="nav-link text-white">About</a>
+                                    </li>
+                                    <li class="nav-item mx-3 scale">
+                                        <a href="#contact" class="nav-link text-white">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                    <div class="d-flex flex-column align-self-center" style="border-color: gray;">
-                        <button class="navbar-toggler align-self-end" data-bs-toggle="collapse" data-bs-target="#menu" style=" color: gray;">
-                            <!-- <span class="navbar-toggler-icon"></span> -->
-                            <i class="fa-solid fa-bars"></i>
-                        </button>
-                        <div class="collapse navbar-collapse" id="menu">
-                            <ul class="navbar-nav">
-                                <li class="nav-item mx-3 scale">
-                                    <a href="#work" class="nav-link text-white">Work</a>
-                                </li>
-                                <li class="nav-item mx-3 scale">
-                                    <a href="#about" class="nav-link text-white">About</a>
-                                </li>
-                                <li class="nav-item mx-3 scale">
-                                    <a href="#contact" class="nav-link text-white">Contact</a>
-                                </li>
-                            </ul>
+                </nav>
+                <div class="container col d-flex align-items-center pb-5" id="about">
+                    <div class="col-8 mx-auto mt-5 mb-5">
+                        <p class="titre display-6 text-center mt-5 pt-5">
+                            Austin Miller Green<br>Photographie
+                        </p>
+                        <p class="p-5">
+                            Où professionalisme s’allie avec passion. Depuis plus de 15 ans maintenant, j’exerce mon métier avec la passion qui m’anime : capturer l’essence de chaque instant.
+                        </p>
+                        <div class="d-flex justify-content-center">
+                            <a class="btn-submit text-center btn rounded rounded-pill text-white btn-sm px-4 py-2 mt-5 text-center scale" href="mailto:ely97@hotmail.fr">UN PROJET? ECRIVEZ MOI</a>
+                            
                         </div>
                     </div>
                 </div>
-            </nav>
-            <div class="container col d-flex align-items-center pb-5" id="about">
-                <div class="col-8 mx-auto mt-5 mb-5">
-                    <p class="titre display-6 text-center mt-5 pt-5">
-                        Austin Miller Green<br>Photographie
-                    </p>
-                    <p class="p-5">
-                        Où professionalisme s’allie avec passion. Depuis plus de 15 ans maintenant, j’exerce mon métier avec la passion qui m’anime : capturer l’essence de chaque instant.
-                    </p>
-                    <div class="d-flex justify-content-center">
-                        <a class="btn-submit text-center btn rounded rounded-pill text-white btn-sm px-4 py-2 mt-5 text-center scale" href="mailto:ely97@hotmail.fr">UN PROJET? ECRIVEZ MOI</a>
-                        
-                    </div>
+                
+            </header>
+            <div class="ctn-img-photographer noir  col-lg-6 d-flex p-0">
+                <div  class="col-lg-12 d-flex">
+                    <img class="w-100" src="images/austin_miller_green_2.webp" alt="photo de profil">
                 </div>
-            </div>
-            
-        </header>
-        <div class="noir col-lg-6 d-flex p-0">
-            <div  class="col-lg-12 d-flex">
-                <img class="w-100" src="images/austin_miller_green_2.webp" alt="photo de profil">
             </div>
         </div>
         
-        <main class="" id="work">
-            <div class="bg-white d-flex justify-content-center col-lg-12 pt-4 pb-5">
-                <div  class="accueil-mozaique container row justify-content-center pb-5">
+        <main class="row" id="work">
+            <div class="container-img-blackWhite bg-white d-flex justify-content-center col-lg-12 pt-4 pb-5">
+                <div  class="accueil-mozaique container row justify-content-center pb-5 px-0">
                     <div class="col-11">
                         <p class="text-dark text-center fs-3 p-4">Aperçu de mon travail</p>
                         <div class="row g-3">
@@ -96,14 +105,11 @@
                             <img class="col-md-4" src="images/img_noir_blanc/img-6.jpg" alt="">             
                             <img class="col-md-4" src="images/img_noir_blanc/img-3.jpg" alt="">
                         </div>
-                        <!-- <div class="d-flex justify-content-center py-5">
-                            <a class="btn rounded rounded-pill text-white  btn-sm px-4 py-2" href="">UN PROJET? ECRIVEZ MOI</a>
-                        </div> -->
                     </div>
                 </div>
             </div>
-            <div class="noir d-flex justify-content-center col-lg-12 pt-4 pb-5">
-                <div  class="accueil-mozaique container row justify-content-center">
+            <div class="container-img-color noir d-flex justify-content-center  pt-4 pb-5">
+                <div  class="accueil-mozaique container row justify-content-center px-auto mx-auto">
                     <div class="col-11">
                         <p class="text-center fs-3 p-4 titre">Aperçu de mon travail</p>
                         <div class="row g-3">
@@ -117,36 +123,8 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="accueil-formulaire container rounded d-flex justify-content-center" id="contact">
-                <div class="col-lg-5">
-                    <p class="titre fs-3 p-4 text-center">Parlons de votre projet</p>
-                    <form action="">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <label class="form-label" for="name">Nom</label>
-                                <input class="form-control" type="text" id="name" name="name" placeholder="Nom" >
-                            </div>
-                            <div class="col-lg-6">
-                                <label class="form-label" for="prenom">Prénom</label>
-                                <input class="form-control" type="text" id="prenom" name="prenom" placeholder="Prénom" >
-                            </div>
-                            <div class="col-lg-12">
-                                <label class="form-label" for="email">Email</label>
-                                <input class="form-control" type="email" id="email" name="email" placeholder="nom.prenom@domaine.com">
-                            </div>
-                        </div>
-                        <div class="col">
-                            <label class="form-label" for="message">Message</label>
-                            <textarea class="form-control" id="message" name="message" cols="30" rows="10" placeholder="entrez votre message ici..."></textarea>
-                        </div>
-                        <div class="d-flex justify-content-center py-5">
-                            <button class="btn-submit btn rounded rounded-pill text-white  btn-sm px-4 py-2 scale" type="submit" >ENVOYER</a>
-                            </button>
-                        </div>
-                    </form>
-                </div>
-            </div> -->
-            <div class="container container-contact my-5 py-5" id="contact">
+ 
+            <div class="container-contact container my-5 py-5" id="contact">
                 <p class="titre fs-3 pb-4 text-center">ME CONTACTER :</p>
                 
                 <div class="contacte">                       
@@ -182,7 +160,7 @@
                     </div>
                 </div> 
             </div>
-            <div class="container bouton-revenir-debut sticky-bottom d-flex justify-content-end m-5 " >
+            <div class="container bouton-revenir-debut sticky-bottom d-flex justify-content-end mb-5" >
                 <a href="#haut" class="rounded text-dark bg-white p-2 border border-secondary">
                     <p class=" mb-0">
                         <i class="fa-solid fa-arrow-up-long"></i>
